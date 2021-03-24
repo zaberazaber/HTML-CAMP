@@ -8,3 +8,7 @@ A repository for learning HTML, CSS and BOOTSTRAP
 3- Create A Nav-Bar
 ```
 
+```
+Why we use <!DOCTYPE html>?
+What is a Head Tag?
+```
