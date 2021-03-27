@@ -1,0 +1,23 @@
+/* I can use element or its attribute like class and id */
+/* . = class
+# = id */
+.red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.navbar-item {
+  list-style: none;
+  display: inline-flex;
+}
+
+.navbar-item > li {
+  margin: 20px;
+}

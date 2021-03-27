@@ -21,4 +21,15 @@ what are the types of list in html?
 what are semantic HTML?
 
 what are the attributes of <video> semantic tags?
+
+why we should avoid inline styling?
+
+what is rel?
+
+why it is preffered to use external css over internal and inline css?
+```
+
+```
+!impoertant tag has the topmost priority after that inline css has the most priority after that internal css than at last external css
+class attribute is reusable and two element can have same classes but id is unique.
 ```
