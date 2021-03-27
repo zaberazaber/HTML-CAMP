@@ -15,3 +15,10 @@ Doctype stands for Document Type Declaration. It informs the web browser about t
 
 What is a Head Tag?
 The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.Metadata typically define the document title, character set, styles, scripts, and other meta information.
+
+what are the types of list in html?
+
+what are semantic HTML?
+
+what are the attributes of <video> semantic tags?
+```
