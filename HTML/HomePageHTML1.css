@@ -124,7 +124,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  background:slategrey ;
   overflow: auto;
 }
 
@@ -137,11 +137,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .navbar a:hover {
-  background-color: #000;
+  background-color:black;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color:limegreen;
 }
 
 @media screen and (max-width: 500px) {
