@@ -40,7 +40,7 @@ autoplay:- The second video are autometically play or start wthout stop the data
 
 autobuffer:-
 The video will automatically begin buffering even if it's not set to automatically play.
-	
+
 controls:-
 If this attribute is present, it will allow the user to control video playback, including volume, seeking, and pause/resume playback.
 
@@ -67,10 +67,18 @@ what is rel?
 The rel attribute defines the relationship between a linked resource and the current document.
 
 why it is preffered to use external css over internal and inline css?
-```
+
 1) An external stylesheet is a standalone .css file that is linked from a web page. The advantage of external stylesheets is that it can be created once and the rules applied to multiple web pages.
 2) An internal stylesheet holds CSS rules for the page in the head section of the HTML file. The rules only apply to that page.
 3) Inline styles relate to a specific HTML tag, using a style attribute with a CSS rule to style a specific page element.
+
+if poster attribute is not provided in video semantic HTML tag what will be shown until the video is not played?
+
+what are block element and what are inline elements in HTML?
+
+What are pseudo selector and pseudo classes?
+
+```
 
 ```
 !impoertant tag has the topmost priority after that inline css has the most priority after that internal css than at last external css
