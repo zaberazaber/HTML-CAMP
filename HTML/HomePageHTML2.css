@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+body{
+   margin:0px;
+   margin-top: 60px 
+   padding: 0px;
+}
+nav{
+    float:right;
+   display: flex;
+   position: fixed;
+   top:0;
+   width: 100%;
+   background-color: rgb(251, 255, 196);
+   overflow: auto;
+   height: auto;
+}
+
+.links {
+   display: inline-block;
+   text-align: center;
+   padding: 14px;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: bolder;
+}
+.links:hover {
+   border-bottom: 2px solid purple;
+}
+.selected{
+   border-bottom: 2px solid purple;
+}
+</style>
+</head>

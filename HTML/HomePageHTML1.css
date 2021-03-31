@@ -1,5 +1,6 @@
 .red {
     background-color: red;
+    
 }
 
 #green{
@@ -30,13 +31,14 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color:black;
+    background-color:aqua;
+    
   }
   
   .topnav a {
-    float: left;
+    float: right;
     color: whitesmoke;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -44,7 +46,8 @@ body {
   
   .topnav a:hover {
     background-color:white;
-    color: black;
+    color: blueviolet;
+    text-align: right;
   }
   
   .topnav a.active {
@@ -151,3 +154,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
 }
 </style>
+</head>
+
+
