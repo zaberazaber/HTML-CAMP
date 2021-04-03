@@ -1,28 +1,70 @@
 /* I can use element or its attribute like class and id */
 /* . = class
 # = id */
-
-.red {
-  background-color: yellowgreen;
+body {
+  margin: 0;
 }
 
-#green {
-  background-color: green;
+.nav-look {
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 16px 10%;
+  font-family: Lato, arial, sans-serif;
+  align-items: center;
+  position: fixed;
+  width: -webkit-fill-available;
 }
 
-.blue {
-  background-color: blue;
+.nav-look > h3 {
+  width: 10%;
 }
 
 .navbar-item {
-  display: inline-flex;
-  float: right;
+  position: absolute;
+  right: 0px;
 }
 
 .navbar-item > span {
-  margin: 20px;
+  padding-left: 32px;
 }
 
-.red > .blue {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+video {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
+
+.video-info {
+  padding: 0% 18% 0% 2%;
+  border-left: 1px solid white;
+  position: fixed;
+  margin: 18% 0 0% 18%;
+  z-index: -1;
+}
+
+.video-info > h1 {
+  font-family: "Cabin", arial, sans-serif;
+  color: white;
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.parallax {
+  display: block;
+  /* Set a specific height */
+  min-height: 702px;
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+.main-body {
+  background-color: black;
+  height: 900px;
 }
