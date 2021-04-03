@@ -74,9 +74,23 @@ why it is preffered to use external css over internal and inline css?
 
 if poster attribute is not provided in video semantic HTML tag what will be shown until the video is not played?
 
+The poster attribute specifies an image to be shown while the video is downloading, or until the user hits the play button. If this is not included, the first frame of the video will be used instead
+
 what are block element and what are inline elements in HTML?
 
+A block-level element always starts on a new line and takes up the full width available.
+
+<div> <address> <article> <table> <tfoot> <ul> <video>
+
+An inline element does not start on a new line and it only takes up as much width as necessary.
+
+<samp> <script> <select> <small> <span> <strong> <sub> <object>
 What are pseudo selector and pseudo classes?
+
+A pseudo-class is used to define a special state of an element.
+Eg:-Style an element when a user mouses over it.
+A pseudo-element is used to style specified parts of an element.
+Style the first letter, or line, of an element.
 
 ```
 

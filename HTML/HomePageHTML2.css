@@ -1,17 +1,22 @@
-<!DOCTYPE html>
+/* <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<style>
+<title>Document</title> */
+/* <style> */
+.navbar-item{
+   display: inline-flex;
+   float: right;
+   padding-left: 50%;
+   
+}
 body{
    margin:0px;
-   margin-top: 60px 
+   margin-top:60px;
    padding: 0px;
 }
 nav{
-    float:right;
    display: flex;
    position: fixed;
    top:0;
@@ -19,9 +24,12 @@ nav{
    background-color: rgb(251, 255, 196);
    overflow: auto;
    height: auto;
+   float: r;
 }
-
-.links {
+.left-links{
+   flex:1 1 200px;
+}
+ .links,navbar-item {
    display: inline-block;
    text-align: center;
    padding: 14px;
@@ -36,5 +44,7 @@ nav{
 .selected{
    border-bottom: 2px solid purple;
 }
-</style>
-</head>
+
+
+/* </style>
+</head> */

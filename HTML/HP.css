@@ -1,0 +1,23 @@
+.navbar{
+    display: inline-flex;
+    display: inline-flex;
+    border: black solid;
+    width: -webkit-fill-available;
+    height: 50px;
+}    
+
+.navbar-item  span {
+    margin: 15px;
+    font-style:unset; 
+     
+  } 
+
+  .red
+  {
+      color: black;
+  }
+
+  
+  
+ 
+   
