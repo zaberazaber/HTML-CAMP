@@ -175,7 +175,7 @@ img {
 .feat > h3 {
     color: white;
 }
-.FEATUREDPRODUCTS {
+.feature-products {
     color:white;
     font-size: 20px;
     font-family: Lato, arial, sans-serif;
@@ -187,7 +187,7 @@ img {
     border-color: gray;
     width: 80%;
 }
-.FEATUREDPRODUCTS > p1
+.feature-products > p1
 {
     color: gray;
     text-align: center;
